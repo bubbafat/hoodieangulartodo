@@ -1,0 +1,17 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "type": "app",
+  "dependencies": {
+    "hoodie-app": "git://github.com/hoodiehq/hoodie-app.git",
+    "hoodie-worker-users": "git://github.com/hoodiehq/worker-users.git"
+  },
+  "subdomain": "hoodie-todo",
+  "domains": [
+    "admin.hoodie-todo.jit.su",
+    "couch.hoodie-todo.jit.su"
+  ],
+  "scripts": {
+    "start": "node node_modules/hoodie-app/bin/start"
+  }
+}
