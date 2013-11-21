@@ -48,7 +48,7 @@ html[data-hoodie-account-status=signedout] .hoodie-account-signedout {
   height: 600px;
 }
 
-#editor { 
+#editor {
     position: absolute;
     top: 0;
     right: 0;

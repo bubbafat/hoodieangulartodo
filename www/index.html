@@ -4,12 +4,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>AngularJS • TodoMVC</title>
-		<link rel="stylesheet" href="bower_components/todomvc-common/base.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/todomvc-common/base.css">
+
 		<link rel="stylesheet" href="css/main.css">
 		<style>[ng-cloak] { display: none; }</style>
 	</head>
 	<body>
-	
+
 	        <div class="hoodie-accountbar">
 
           <div class="hoodie-account-signedout">
@@ -58,7 +60,7 @@
         </div><!--/hoodieAccountBar -->
       </div>
 
-	
+
 		<section id="todoapp" ng-controller="TodoCtrl">
 			<header id="header">
 				<h1>todos</h1>
@@ -110,10 +112,12 @@
 			</p>
 			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 		</footer>
-		
+
 		<script src="js/vendor/jquery-1.9.1.js"></script>
 		<script src="js/vendor/bootstrap.js"></script>
-		<script src="js/vendor/hoodie.js"></script>
+
+    <!-- Load the dynamic version of hoodie.js that includes all the plugin code-->
+    <script src="/_api/_files/hoodie.js"></script>
 
 		<script src="js/hoodie.accountbar.bootstrap.js"></script>
 		<script src="js/bootstrap.modalform.js"></script>
